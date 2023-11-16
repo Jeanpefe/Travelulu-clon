@@ -23,7 +23,8 @@ svg {
 }
 
 .button {
-  background-color: aqua;
+  display: inline-block;
+  box-sizing: border-box;
   border-radius: 1rem;
   padding: 0.7rem 2.5rem;
   font-size: 0.7rem;
@@ -36,10 +37,9 @@ svg {
 }
 
 .button--white {
+  border: 2px solid #5F2EEA; /* Ancho y color del borde */
   background-color: white;
   color: #5F2EEA;
-  border-color: #5F2EEA;
-  border: 2px solid #5F2EEA; /* Ancho y color del borde */
 }
 
 .statistics {

@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Poppins';
   font-weight: 700;
@@ -21,7 +21,10 @@ svg {
 }
 
 .landing {
+  background-color: coral;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .landing__title{
@@ -68,12 +71,9 @@ svg {
 
 .landing__image{
   width: 68rem;
-  object-fit: contain;
-  height: 40rem;
   z-index: 2;
   max-width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .statistics {
@@ -83,4 +83,7 @@ svg {
 
 .statistics__child {
   border: 1px solid blue;
+}
+div {
+  margin: 0;
 }

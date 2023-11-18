@@ -143,19 +143,24 @@ svg {
 
 .tools__collection {
   display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  max-width: 100%;
 }
 
 .tools__article {
   display: flex;
+  gap:0.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid #E4DAFF;
   border-radius: 0.4rem;
   padding: 2rem;
 }
 
 .tools__article p {
+  flex: 1;
   align-self: center;
   font-weight: 400;
   font-size: 0.7rem;
@@ -169,4 +174,11 @@ svg {
 .collection__title {
   font-weight: 600;
   font-size: 0.8rem;
+}
+
+.tools__button {
+    align-self: center;
+    border: 0.1rem solid #D9DBE9;
+    background-color: white;
+    color: #5F2EEA;  
 }
